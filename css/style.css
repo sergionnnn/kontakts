@@ -35,7 +35,7 @@ h3{
 .images{
     padding-top: 20px;
     margin-right: 15px;
-
+    min-width: 35px;
     background-color: white;
 }
 
@@ -43,15 +43,13 @@ h3{
 
 .info{
     
-    padding: 15px 10px;
+    
     background-color: white;
     display: flex;
     width: 65%;
 }
 
-.info p{
-    padding-left: 10px;
-}
+
 
 
 .wrapper{
@@ -65,25 +63,25 @@ h3{
 }
 
 .photoes{
+    margin-top: 20px;
     width: 100%;
     grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
-    gap:10px;
+    gap:15px;
     overflow: hidden;
     display: grid;
-    background-color: white;
+    
 }
 
 .photoes span{
-    background-color:white;
     height: 150px;
     overflow: hidden;
-    object-fit: cover;
 }
 
 
 .image-box{
     background-color: white;
     width: 100%;
+    height: 150px;
 }
 
 
